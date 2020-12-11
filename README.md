@@ -78,3 +78,9 @@ docker run -d -p 3000:3000 madhukusu/my-react-app
 
 ### Once Docker continer started Please check using below url
 http://localhost:3000
+
+### Docker-compose up
+docker-compose up -d
+
+### Docker-compose down
+docker-compose down
