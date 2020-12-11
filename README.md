@@ -85,5 +85,11 @@ https://docs.docker.com/compose/
 ### Docker-compose up
 docker-compose up -d
 
+### Docker-compose ps
+docker-compose ps
+
 ### Docker-compose down
 docker-compose down
+
+### Docker-compose scale up & down
+docker-compose up -d --scale web=4
