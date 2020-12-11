@@ -70,11 +70,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-To Build the Docker Image 
+### To Build the Docker Image 
 docker build -t madhukusu/myreact-app:latest .
 
-Create the docker container
+### Create the docker container
 docker run -d -p 3000:3000 madhukusu/myreact-app
 
-Once Docker continer started Please check using below url
+### Once Docker continer started Please check using below url
 http://localhost:3000
